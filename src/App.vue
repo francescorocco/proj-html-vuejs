@@ -1,9 +1,12 @@
 <script>
   import MyHeader from './components/MyHeader.vue';
+  import jumbotron from './components/jumbotron.vue';
+
 
     export default {
         components: {
             MyHeader,
+            jumbotron,
         },
         data(){
             return{
@@ -15,6 +18,7 @@
 
 <template>
     <MyHeader :headerMenuVoice="this.headerMenuVoice"></MyHeader>
+    <jumbotron></jumbotron>
 </template>
 
 <style lang="scss">
