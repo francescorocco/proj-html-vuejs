@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: 'playButton',
+        name: 'footer',
     }
 </script>
 
