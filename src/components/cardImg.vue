@@ -33,9 +33,7 @@
     }
 
     img{
-        width: 100%;
-        height: 100%;
-        border-radius: 5px 5px 50px;
+        @include mixins.rounded-img;
     }
 
     .img-wrapper:after{
