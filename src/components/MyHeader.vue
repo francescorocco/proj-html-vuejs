@@ -5,9 +5,6 @@
         props:{
             headerMenuVoice: Array,
         },
-        components: {
-            
-        },
     }
 </script>
 

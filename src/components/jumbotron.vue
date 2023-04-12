@@ -46,7 +46,7 @@
     .container{
         @include mixins.container;
         display: flex;
-        height: 100%;
+        height: 90%;
         flex-direction: column;
         justify-content: center;
         color:whitesmoke
@@ -81,7 +81,7 @@
 
     .button-wrap{
         display: flex;
-        padding: 20px 0;
+        padding: 40px 0;
     }
 
     .button, .button-blue{
