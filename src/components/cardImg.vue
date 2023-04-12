@@ -46,7 +46,8 @@
         top: 0;
         left: 0;
         border-radius: 5px 5px 50px;
-        background: linear-gradient(0deg, black 0%, transparent 40%);
+        background: linear-gradient(0deg, black -50%, transparent 80%);
+        box-shadow: 0px 0px 30px 2px  rgb(60, 60, 60);
     }
 
     .text-area{

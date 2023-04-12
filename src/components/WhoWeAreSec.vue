@@ -54,7 +54,7 @@
 
 
     section{
-        background: linear-gradient(316deg, var(--section-light-color) 0%, var(--section-dark-color) 125%);
+        background: linear-gradient(157deg, var(--section-dark-color) 0%, var(--section-mid-color) 61%, var(--section-light-color) 100%);
         height: 1020px;
     }
 
