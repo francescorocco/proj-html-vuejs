@@ -1,8 +1,9 @@
 <script>
-    export default {
-        name: 'button',
+    export default{
+        name: "WhoWeAreSec",
     }
 </script>
+
 
 <template>
 

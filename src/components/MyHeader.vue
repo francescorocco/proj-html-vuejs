@@ -4,7 +4,10 @@
 
         props:{
             headerMenuVoice: Array,
-        }
+        },
+        components: {
+            
+        },
     }
 </script>
 
@@ -43,7 +46,7 @@
 
     .bg-container{
         background-color: var(--dark-bg-color);
-        font-family: 'Yantramanav', sans-serif;
+        font-family:  'Marsden Narrow','Yantramanav', sans-serif;
     }
     header.container{
         @include mixins.container;
