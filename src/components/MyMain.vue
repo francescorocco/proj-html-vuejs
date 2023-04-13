@@ -5,6 +5,7 @@
     import DescriptionCards from "./DescriptionCards.vue"
     import ArticlesList from "./ArticlesList.vue"
     import BannerBuySec from "./BannerBuySec.vue"
+    import ActivitiesSec from "./ActivitiesSec.vue"
 
     export default {
         name: 'MyMain',
@@ -16,6 +17,7 @@
             DescriptionCards,
             ArticlesList,
             BannerBuySec,
+            ActivitiesSec
         }
     }
 </script>
@@ -28,6 +30,7 @@
         <DescriptionCards></DescriptionCards>
         <ArticlesList></ArticlesList>
         <BannerBuySec></BannerBuySec>
+        <ActivitiesSec></ActivitiesSec>
     </main>
 </template>
 
