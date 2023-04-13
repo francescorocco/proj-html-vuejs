@@ -1,12 +1,15 @@
 <script>
     import WhoWeAreSec from "./WhoWeAreSec.vue"
     import VisitUsSec from "./VisitUsSec.vue"
+    import NewsLetters from "./NewsLetters.vue"
+
     export default {
         name: 'MyMain',
 
         components: {
             WhoWeAreSec,
             VisitUsSec,
+            NewsLetters,
         }
     }
 </script>
@@ -15,6 +18,7 @@
     <main>
         <WhoWeAreSec></WhoWeAreSec>
         <VisitUsSec></VisitUsSec>
+        <NewsLetters></NewsLetters>
     </main>
 </template>
 
