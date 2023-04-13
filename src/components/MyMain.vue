@@ -2,6 +2,7 @@
     import WhoWeAreSec from "./WhoWeAreSec.vue"
     import VisitUsSec from "./VisitUsSec.vue"
     import NewsLetters from "./NewsLetters.vue"
+    import DescriptionCards from "./DescriptionCards.vue"
 
     export default {
         name: 'MyMain',
@@ -10,6 +11,7 @@
             WhoWeAreSec,
             VisitUsSec,
             NewsLetters,
+            DescriptionCards,
         }
     }
 </script>
@@ -19,6 +21,7 @@
         <WhoWeAreSec></WhoWeAreSec>
         <VisitUsSec></VisitUsSec>
         <NewsLetters></NewsLetters>
+        <DescriptionCards></DescriptionCards>
     </main>
 </template>
 
