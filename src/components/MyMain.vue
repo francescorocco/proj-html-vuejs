@@ -3,6 +3,7 @@
     import VisitUsSec from "./VisitUsSec.vue"
     import NewsLetters from "./NewsLetters.vue"
     import DescriptionCards from "./DescriptionCards.vue"
+    import ArticlesList from "./ArticlesList.vue"
 
     export default {
         name: 'MyMain',
@@ -12,6 +13,7 @@
             VisitUsSec,
             NewsLetters,
             DescriptionCards,
+            ArticlesList,
         }
     }
 </script>
@@ -22,6 +24,7 @@
         <VisitUsSec></VisitUsSec>
         <NewsLetters></NewsLetters>
         <DescriptionCards></DescriptionCards>
+        <ArticlesList></ArticlesList>
     </main>
 </template>
 
