@@ -4,6 +4,7 @@
     import NewsLetters from "./NewsLetters.vue"
     import DescriptionCards from "./DescriptionCards.vue"
     import ArticlesList from "./ArticlesList.vue"
+    import BannerBuySec from "./BannerBuySec.vue"
 
     export default {
         name: 'MyMain',
@@ -14,6 +15,7 @@
             NewsLetters,
             DescriptionCards,
             ArticlesList,
+            BannerBuySec,
         }
     }
 </script>
@@ -25,6 +27,7 @@
         <NewsLetters></NewsLetters>
         <DescriptionCards></DescriptionCards>
         <ArticlesList></ArticlesList>
+        <BannerBuySec></BannerBuySec>
     </main>
 </template>
 
