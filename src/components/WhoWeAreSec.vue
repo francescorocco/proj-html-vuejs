@@ -40,7 +40,7 @@
                 
                 	<!-- Qua vengono gestite le 3 immagini in primo piano -->
 
-                <cardImg v-for="(element,i) in cardList" :key="i" 
+                <cardImg class="card" v-for="(element,i) in cardList" :key="i" 
                 :imgUrl="element.imgUrl"
                 :cardTitle="element.cardTitle"
                 :cardSubtitle="element.cardSubtitle"
@@ -132,5 +132,12 @@
 
     .place-box{
         color: var(--unselected-text-color);
+    }
+
+    .card{
+        transition: transform 0.3s linear;
+    }
+    .card:hover{
+        transform: scale(1.1);
     }
 </style>

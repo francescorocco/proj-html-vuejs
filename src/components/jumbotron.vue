@@ -93,10 +93,18 @@
         border: 3px solid var(--border-transparent-button);
     }
 
+    .button:hover{
+        background-color: var(--light-text-color);
+        color: black;
+    }
     .button-blue{
         @include mixins.blue-button;
         margin-right: 15px;
         font-weight: 500;
+    }
+
+    .button-blue:hover{
+        background-color: var(--red-button-background);
     }
 
     .button-blue i{

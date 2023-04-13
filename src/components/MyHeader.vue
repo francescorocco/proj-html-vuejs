@@ -86,6 +86,10 @@
         margin: 0 30px;
     }
     
+    .button:hover{
+        background-color: var(--red-button-background);
+    }
+
     a i {
         font-size: 16px;
     }

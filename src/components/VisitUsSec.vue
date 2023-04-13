@@ -36,35 +36,46 @@
             
                 <div class="big-yt-button">
                     <i class="fa-brands fa-youtube"></i>
-                    <a href="#">Visit my YouTube channel<i class="fa-solid fa-angle-right"></i></a>
+                    <a href="#">Visit my YouTube channel</a>
                 </div>    
             </div>
         </div>
     
         <div class="container">
-            <div>Featured playlist</div>
-            <div>View all videos<i class="fa-solid fa-angle-right"></i></div>
+            <div class="flex-box">
+                <div class="playlist-name">Featured playlist</div>
+                <div class="other-playlist">View all videos<i class="fa-solid fa-angle-right"></i></div>
+            </div>
             
             <div class="videos-wrapper">
                 <div class="card-video">
                     <div class="video-img">
-                        <img  class="thumb" src="../assets/video2-2x.jpg" alt="">
+                        <img  class="thumb" src="../assets/video2-2x.jpg" alt="thumbnail video : Thiahs & qlute workout">
+                        <div class="small-play-button">
+                            <playButton class="small"></playButton>
+                        </div>
                     </div>
                     <div class="video-name">Thiahs & qlute workout</div>
                     <div class="video-focused-on">Increase your mobility</div>
                 </div>
                 <div class="card-video">
                     <div class="video-img">
-                        <img class="thumb"  src="../assets/video7-2x.jpg" alt="">
+                        <img class="thumb"  src="../assets/video7-2x.jpg" alt="thumbnail video : Lift, firm & perk up">
+                        <div class="small-play-button">
+                            <playButton class="small"></playButton>
+                        </div>
                     </div>
                     <div class="video-name">Lift, firm & perk up</div>
                     <div class="video-focused-on">Feel young again</div>
                 </div>
                 <div class="card-video">
                     <div class="video-img">
-                        <img  class="thumb" src="../assets/video9-2x.jpg" alt="">
+                        <img  class="thumb" src="../assets/video9-2x.jpg" alt="thumbnail video : Slim & trim your waist">
+                        <div class="small-play-button">
+                            <playButton class="small"></playButton>
+                        </div>
                     </div>
-                    <div class="video-name">Slim & trim your waistYYYy</div>
+                    <div class="video-name">Slim & trim your waist</div>
                     <div class="video-focused-on">Shed those extra pounds</div>
                 </div>
             </div>
@@ -187,6 +198,19 @@
     .video-img{
         height: 250px;
         width: 410px;
+        position: relative;
+    }
+
+    .small-play-button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+    }
+
+    .small{
+        width: 70px;
+        height: 70px;
     }
 
     .video-name{
@@ -203,4 +227,22 @@
         font-weight: 400;
     }
 
+    .flex-box{
+        @include mixins.d-flex-space-between;
+        margin-bottom: 30px;
+    }
+
+    .playlist-name{
+        font-size: 30px;
+        font-weight:500;
+    }
+
+    .other-playlist{
+        font-weight: 500;
+    }
+
+    .flex-box i {
+        padding-left: 10px;
+        margin-right: 20px;
+    }
 </style>
