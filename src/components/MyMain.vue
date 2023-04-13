@@ -6,6 +6,7 @@
     import ArticlesList from "./ArticlesList.vue"
     import BannerBuySec from "./BannerBuySec.vue"
     import ActivitiesSec from "./ActivitiesSec.vue"
+    import VideoOfTheDaySec from "./VideoOfTheDaySec.vue"
 
     export default {
         name: 'MyMain',
@@ -17,7 +18,8 @@
             DescriptionCards,
             ArticlesList,
             BannerBuySec,
-            ActivitiesSec
+            ActivitiesSec,
+            VideoOfTheDaySec
         }
     }
 </script>
@@ -31,6 +33,7 @@
         <ArticlesList></ArticlesList>
         <BannerBuySec></BannerBuySec>
         <ActivitiesSec></ActivitiesSec>
+        <VideoOfTheDaySec></VideoOfTheDaySec>
     </main>
 </template>
 
